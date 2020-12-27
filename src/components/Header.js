@@ -6,28 +6,28 @@ import NavList from './NavList';
 
 const Header =() => {
     const navItem = [
-        {title : '카테고리', link : '/'},
-        {title : '온라인', link : '/'},
-        {title : '오프라인', link : '/'},
-        {title : '기업교육', link : '/'},
-        {title : '이벤트', link : '/'},
-        {title : '수강후기', link : '/'}
+        {title : '카테고리', link : '#'},
+        {title : '온라인', link : '#'},
+        {title : '오프라인', link : '#'},
+        {title : '기업교육', link : '#'},
+        {title : '이벤트', link : '#'},
+        {title : '수강후기', link : '#'}
     ]
   return (
     <header>
         <div className="wrap">
-            <a href="/">
+            <a href="/fastcampus">
                 <img src={logoImage} alt="logo" />
             </a>
             <ul className="util">
                 <li>
-                    <a href="/login">
+                    <a href="/fastcampus/login">
                     <img src={loginImage} className="icon" alt="icon-login"/>
                     로그인
                     </a>
                 </li>
                 <li>
-                    <a href="/signup">
+                    <a href="/fastcampus/signup">
                     <img src={signupImage} className="icon" alt="icon-signup"/>
                     회원가입
                     </a>

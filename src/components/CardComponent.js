@@ -11,7 +11,7 @@ const CardImage = styled.div`
 `
 
 const CardItemBox = (props) => {
-    const link = "/";
+    const link = "/fastcampus";
     return (
         <li className="card-item">
             <a href={link}>

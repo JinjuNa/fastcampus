@@ -15,8 +15,8 @@ function App() {
       <Router>
       <Switch>
           <Route exact path="/fastcampus" component={Home}/>
-          <Route path="/signup" component={Signup} />
-          <Route path="/login" component={Login} />
+          <Route path="/fastcampus/signup" component={Signup} />
+          <Route path="/fastcampus/login" component={Login} />
       </Switch>
       </Router>
       <Footer />
