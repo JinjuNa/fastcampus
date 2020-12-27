@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Router>
       <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/fastcampus" component={Home}/>
           <Route path="/signup" component={Signup} />
           <Route path="/login" component={Login} />
       </Switch>
