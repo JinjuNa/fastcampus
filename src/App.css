@@ -1,6 +1,7 @@
 .App {
   /* background-image: linear-gradient(rgb(220, 220, 220), rgb(255, 255, 255) 27%, rgb(255, 255, 255)); */
-  background-color: #eee;
+  /* background-color: #eee; */
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .App-logo {
@@ -21,19 +22,16 @@ header .wrap, footer .wrap{
   margin:0 auto;
 }
 
+.content-section{
+  width: 1000px;
+  margin : 50px auto;
+}
+
 .logo{
   margin-top: 10px;
 }
 
 .copy-right{
   text-align: center;
-}
-
-.page-container {
-  padding:50px 0;
-}
-
-.project-section {
-  padding:50px 0;
 }
 

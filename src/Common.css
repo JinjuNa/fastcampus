@@ -1,0 +1,41 @@
+/* font */
+.f-40{
+    font-size: 40px;
+}
+
+.f-28{
+    font-size: 28px;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.f-12{
+    font-size: 12px;
+}
+
+/* header */
+header .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding : 20px 0;
+}
+
+header .util{
+    display: flex;
+    flex-direction: row;
+    font-size : 14px;
+}
+
+header .util .icon{
+    margin-right : 5px;
+    margin-left : 10px;
+    margin-bottom : -3px;
+}
+
+header nav .nav-list a{
+    font-size : 20px;
+    font-weight: 700;
+    padding : 8px 16px 24px 16px;
+}
